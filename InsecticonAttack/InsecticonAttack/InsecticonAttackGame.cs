@@ -24,7 +24,7 @@ namespace ScratchyXna
         public override void LoadScenes()
         {
             AddScene<TitleScene>();
-            //AddScene<PlayScene>();
+            AddScene<PlayScene>();
         }
     }
 }
