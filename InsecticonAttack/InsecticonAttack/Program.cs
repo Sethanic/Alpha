@@ -1,6 +1,6 @@
 using System;
 
-namespace InsecticonAttack
+namespace ScratchyXna
 {
 #if WINDOWS || XBOX
     static class Program
@@ -10,7 +10,7 @@ namespace InsecticonAttack
         /// </summary>
         static void Main(string[] args)
         {
-            using (Game1 game = new Game1())
+            using (InsecticonAttack game = new InsecticonAttack())
             {
                 game.Run();
             }

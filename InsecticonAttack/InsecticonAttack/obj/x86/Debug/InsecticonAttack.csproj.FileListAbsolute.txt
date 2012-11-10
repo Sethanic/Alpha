@@ -1,0 +1,8 @@
+C:\Users\Bernadette\Documents\GitHub\Alpha\InsecticonAttack\InsecticonAttack\bin\x86\Debug\InsecticonAttack.exe
+C:\Users\Bernadette\Documents\GitHub\Alpha\InsecticonAttack\InsecticonAttack\bin\x86\Debug\InsecticonAttack.pdb
+C:\Users\Bernadette\Documents\GitHub\Alpha\InsecticonAttack\InsecticonAttack\bin\x86\Debug\ScratchyXna.dll
+C:\Users\Bernadette\Documents\GitHub\Alpha\InsecticonAttack\InsecticonAttack\bin\x86\Debug\ScratchyXna.pdb
+C:\Users\Bernadette\Documents\GitHub\Alpha\InsecticonAttack\InsecticonAttack\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bernadette\Documents\GitHub\Alpha\InsecticonAttack\InsecticonAttack\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Bernadette\Documents\GitHub\Alpha\InsecticonAttack\InsecticonAttack\obj\x86\Debug\InsecticonAttack.exe
+C:\Users\Bernadette\Documents\GitHub\Alpha\InsecticonAttack\InsecticonAttack\obj\x86\Debug\InsecticonAttack.pdb
