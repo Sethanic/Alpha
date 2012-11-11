@@ -80,6 +80,7 @@
     <Compile Include="InsecticonAttackGame.cs" />
     <Compile Include="Scenes\PlayScene.cs" />
     <Compile Include="Scenes\titleScene.cs" />
+    <Compile Include="Sprites\Insecticon.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
