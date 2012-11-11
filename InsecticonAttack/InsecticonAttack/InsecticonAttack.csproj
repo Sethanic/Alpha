@@ -80,18 +80,13 @@
     <Compile Include="InsecticonAttackGame.cs" />
     <Compile Include="Scenes\PlayScene.cs" />
     <Compile Include="Scenes\titleScene.cs" />
+    <Compile Include="Sprites\StartButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png">
       <XnaPlatformSpecific>true</XnaPlatformSpecific>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\InsecticonAttackContent\InsecticonAttackContent.contentproj">
-      <Name>InsecticonAttackContent</Name>
-      <XnaReferenceType>Content</XnaReferenceType>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -121,7 +116,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Sprites\" />
+    <ProjectReference Include="..\InsecticonAttackContent\InsecticonAttackContent.contentproj">
+      <Project>{D319A78B-B287-4755-AF17-FF43CFC4CE12}</Project>
+      <Name>InsecticonAttackContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
