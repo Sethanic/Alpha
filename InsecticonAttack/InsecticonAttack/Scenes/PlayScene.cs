@@ -19,13 +19,9 @@ namespace ScratchyXna
             Background.AddLayer("PlaySceneBackground");
             Background.ScaleToScreen();
 
-            // Text
-            LoadFont("QuartzMS");
-            Text titleText = new Text
-            {
-                Value = "                           Play"
-            };
-            AddText(titleText);  // Adds the title text object to the scene, so that it will be drawn
+            Insecticon insecect1 = new Insecticon();
+            insecect1.Scale = 0.05f;
+            AddSprite(insecect1);
         }
 
         /// <summary>
