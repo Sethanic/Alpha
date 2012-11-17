@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace ScratchyXna
 {
@@ -25,11 +26,12 @@ namespace ScratchyXna
             LoadFont("QuartzMS");
             Text titleText = new Text
             {
-                Value = "This is the title scene",
+                Value =@"Insecticon
+   Attack",
                 VerticalAlign = VerticalAlignments.Top,
                 Alignment = HorizontalAlignments.Center,
                 X = 0,
-                Y = 90
+                Y = 90, Color= Color.LimeGreen
             };
             AddText(titleText);  // Adds the title text object to the scene, so that it will be drawn
 

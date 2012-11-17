@@ -36,7 +36,7 @@ namespace ScratchyXna
         {
             if (IsTouching(Mouse.Position))
             {
-                SpriteColor = Color.Red;
+                SpriteColor = Color.Silver;
             }
             else
             {

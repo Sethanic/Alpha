@@ -23,7 +23,7 @@ namespace ScratchyXna
             LoadFont("QuartzMS");
             Text titleText = new Text
             {
-                Value = "This is the play scene"
+                Value = "                           Play"
             };
             AddText(titleText);  // Adds the title text object to the scene, so that it will be drawn
         }
