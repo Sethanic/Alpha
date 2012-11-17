@@ -23,7 +23,7 @@ namespace ScratchyXna
             Background.ScaleToScreen();
 
             // Text
-            LoadFont("QuartzMS");
+            LoadFont("Impact");
             Text titleText = new Text
             {
                 Value =@"Insecticon
