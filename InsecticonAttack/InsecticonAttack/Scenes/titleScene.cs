@@ -23,13 +23,14 @@ namespace ScratchyXna
             Background.ScaleToScreen();
 
             // Text
-            LoadFont("Impact");
+            LoadFont("INATitle");
             Text titleText = new Text
             {
                 Value =@"Insecticon
    Attack",
                 VerticalAlign = VerticalAlignments.Top,
                 Alignment = HorizontalAlignments.Center,
+                Scale = 10,
                 X = 0,
                 Y = 90, Color= Color.LimeGreen
             };
