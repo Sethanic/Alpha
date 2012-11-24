@@ -16,7 +16,7 @@ namespace ScratchyXna
         /// </summary>
         public override void Load()
         {
-            AddCostume("StartButton");   
+            AddCostume("StartButton");
         }
 
         /// <summary>
@@ -25,7 +25,6 @@ namespace ScratchyXna
         /// <param name="gameTime"></param>
         public override void Update(GameTime gameTime)
         {
-            WiggleAround(gameTime);
             ColorOnMOuseHover();
         }
 
@@ -48,10 +47,9 @@ namespace ScratchyXna
         /// Wiggle
         /// </summary>
         /// <param name="gameTime"></param>
-        private void WiggleAround(GameTime gameTime)
-        {
-            X = Math.Sin(gameTime.TotalGameTime.TotalSeconds) * 30;
-            Y = Math.Cos(gameTime.TotalGameTime.TotalSeconds) * 10;
-        }
+        //private void WiggleAround(GameTime gameTime)
+
+        //X = Math.Sin(gameTime.TotalGameTime.TotalSeconds) * 30;
+        //Y = Math.Cos(gameTime.TotalGameTime.TotalSeconds) * 10;
     }
 }
