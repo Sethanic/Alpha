@@ -16,7 +16,9 @@ namespace ScratchyXna
         /// </summary>
         public override void Load()
         {
-            AddCostume("Insecticon");   
+            AddCostume("Insecticon");
+            Direction = -180;
+            Speed = 0.175f;
         }
 
         /// <summary>
@@ -25,24 +27,8 @@ namespace ScratchyXna
         /// <param name="gameTime"></param>
         public override void Update(GameTime gameTime)
         {
-            WiggleAround(gameTime);
-            ColorOnMOuseHover();
         }
-
-        /// <summary>
-        /// If the mouse is over the button, turn it red
-        /// </summary>
-        private void ColorOnMOuseHover()
-        {
-            if (IsTouching(Mouse.Position))
-            {
-                SpriteColor = Color.Silver;
-            }
-            else
-            {
-                SpriteColor = Color.White;
-            }
-        }
+       
 
         /// <summary>
         /// Wiggle

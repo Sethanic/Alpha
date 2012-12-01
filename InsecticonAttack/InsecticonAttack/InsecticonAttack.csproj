@@ -84,10 +84,21 @@
     <Compile Include="Sprites\StartButton.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\x86\Debug\InsecticonAttack.exe" />
+    <Content Include="bin\x86\Debug\InsecticonAttack.pdb" />
+    <Content Include="bin\x86\Debug\ScratchyXna.dll" />
+    <Content Include="bin\x86\Debug\ScratchyXna.pdb" />
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png">
       <XnaPlatformSpecific>true</XnaPlatformSpecific>
     </Content>
+    <Content Include="obj\x86\Debug\cachefile-{D319A78B-B287-4755-AF17-FF43CFC4CE12}-targetpath.txt" />
+    <Content Include="obj\x86\Debug\ContentPipeline-{D319A78B-B287-4755-AF17-FF43CFC4CE12}.xml" />
+    <Content Include="obj\x86\Debug\InsecticonAttack.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\InsecticonAttack.exe" />
+    <Content Include="obj\x86\Debug\InsecticonAttack.pdb" />
+    <Content Include="obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt" />
+    <Content Include="Sprites\Untitled.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -122,6 +133,22 @@
       <Name>InsecticonAttackContent %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\Content\Backgrounds\PlaySceneBackground.xnb" />
+    <None Include="bin\x86\Debug\Content\Backgrounds\TitleSceneBackground.xnb" />
+    <None Include="bin\x86\Debug\Content\Costumes\Insecticon.xnb" />
+    <None Include="bin\x86\Debug\Content\Costumes\QuitButton.xnb" />
+    <None Include="bin\x86\Debug\Content\Costumes\StartButton.xnb" />
+    <None Include="bin\x86\Debug\Content\Fonts\INATitle.xnb" />
+    <None Include="bin\x86\Debug\Content\Fonts\QuartzMS.xnb" />
+    <None Include="InsecticonAttack.csproj.Debug.cachefile" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\ResolveAssemblyReference.cache" />
+    <None Include="Sprites\Untitled.xcf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\x86\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
