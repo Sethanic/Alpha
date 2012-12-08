@@ -98,7 +98,6 @@
     <Content Include="obj\x86\Debug\InsecticonAttack.exe" />
     <Content Include="obj\x86\Debug\InsecticonAttack.pdb" />
     <Content Include="obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt" />
-    <Content Include="Sprites\Untitled.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -145,7 +144,6 @@
     <None Include="InsecticonAttack.csproj.Debug.cachefile" />
     <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\x86\Debug\ResolveAssemblyReference.cache" />
-    <None Include="Sprites\Untitled.xcf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="obj\x86\Debug\TempPE\" />
