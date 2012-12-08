@@ -43,7 +43,7 @@ namespace ScratchyXna
             }
         }
 
-        /// <summary>
+         /// <summary>
         /// Wiggle
         /// </summary>
         /// <param name="gameTime"></param>

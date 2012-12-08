@@ -80,6 +80,8 @@
     <Compile Include="InsecticonAttackGame.cs" />
     <Compile Include="Scenes\PlayScene.cs" />
     <Compile Include="Scenes\titleScene.cs" />
+    <Compile Include="Sprites\BasicTurret.cs" />
+    <Compile Include="Sprites\TurretPlacement.cs" />
     <Compile Include="Sprites\Insecticon.cs" />
     <Compile Include="Sprites\StartButton.cs" />
   </ItemGroup>

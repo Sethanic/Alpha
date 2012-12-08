@@ -49,7 +49,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Sounds\" />
+    <Compile Include="Costumes\GreenSquare.png">
+      <Name>GreenSquare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Costumes\StartButton.png">
@@ -80,12 +84,41 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Costumes\Untitled.png">
-      <Name>Untitled</Name>
+    <Compile Include="Costumes\Bullet.png">
+      <Name>Bullet</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Costumes\BasicTurret.png">
+      <Name>BasicTurret</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sounds\Static 2.wav">
+      <Name>Static 2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sounds\Static.wav">
+      <Name>Static</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Costumes\RedSquare.png">
+      <Name>RedSquare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

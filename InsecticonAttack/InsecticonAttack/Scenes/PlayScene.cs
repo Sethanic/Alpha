@@ -24,7 +24,20 @@ namespace ScratchyXna
             float dx = 20;
             float dy = 20;
 
+            //BasicTurret Turret1 = new BasicTurret();
+            //AddSprite(Turret1);
 
+            //BasicTurret Turret2 = new BasicTurret();
+            //AddSprite(Turret2);
+            //Turret2.SetPosition(-50.0, 50.0);
+
+            //BasicTurret Turret3 = new BasicTurret();
+            //AddSprite(Turret3);
+            //Turret3.SetPosition(-50.0, -50.0);
+
+            TurretPlacement Square = new TurretPlacement();
+            AddSprite(Square);
+            
 
             Insecticon insecect1 = new Insecticon();
             insecect1.Scale = 0.05f;
@@ -53,7 +66,13 @@ namespace ScratchyXna
         /// <param name="gameTime">The amount of time since the last update</param>
         public override void Update(Microsoft.Xna.Framework.GameTime gameTime)
         {
-            
+
+
+            if (Mouse.Button1Pressed()) {
+                BasicTurret newTurret = new BasicTurret();
+                AddSprite(newTurret);
+                newTurret.Position = Mouse.Position;
+            }
         }
     }
 }

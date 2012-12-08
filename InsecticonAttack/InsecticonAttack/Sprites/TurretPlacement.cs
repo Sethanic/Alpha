@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ScratchyXna
+{
+    class TurretPlacement : Sprite
+    {
+        public override void Load()
+        {
+            AddCostume("GreenSquare");
+            AddCostume("RedSquare");
+            Scale = 0.275f;
+        }
+        public override void Update(Microsoft.Xna.Framework.GameTime gameTime)
+        {
+
+            Math.
+
+        }
+    }
+}
