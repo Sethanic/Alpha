@@ -18,6 +18,7 @@ namespace ScratchyXna
         /// </summary>
         public override void Load()
         {
+
             // Background
             Background.AddLayer("TitleSceneBackground");
             Background.ScaleToScreen();
@@ -36,6 +37,9 @@ namespace ScratchyXna
             };
             AddText(titleText);  // Adds the title text object to the scene, so that it will be drawn
 
+            AddSong("BackgroundMusic1");
+            PlaySong("BackgroundMusic1", true);
+
             // Sprites
             startButton = new StartButton();
             AddSprite(startButton);
@@ -52,5 +56,6 @@ namespace ScratchyXna
                 ShowScene("Play");
             }
         }
+
     }
 }

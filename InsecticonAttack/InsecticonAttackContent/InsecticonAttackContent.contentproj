@@ -119,14 +119,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sounds\Two-Steps-From-Hell-Heart-of-Courage.mp3">
-      <Name>Two-Steps-From-Hell-Heart-of-Courage</Name>
+    <Compile Include="Songs\Two-Steps-From-Hell-Heart-of-Courage.mp3">
+      <Name>BackgroundMusic1</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sounds\Two Steps From Hell - Protectors Of The Earth -.mp3">
+    <Compile Include="Songs\Two Steps From Hell - Protectors Of The Earth -.mp3">
       <Name>Two Steps From Hell - Protectors Of The Earth -</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
