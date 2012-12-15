@@ -7,6 +7,8 @@ namespace ScratchyXna
 {
     class TurretPlacement : Sprite
     {
+        int gridsize = 20;
+
         public override void Load()
         {
             AddCostume("GreenSquare");
@@ -16,8 +18,9 @@ namespace ScratchyXna
         public override void Update(Microsoft.Xna.Framework.GameTime gameTime)
         {
 
-            //Math.
-
+            this.Position = Mouse.Position;
+            this.X = ((int)this.X / gridsize) * gridsize;
+            this.Y = ((int)this.Y / gridsize) * gridsize;
         }
     }
 }

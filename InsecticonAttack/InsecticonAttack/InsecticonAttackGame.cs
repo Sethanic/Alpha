@@ -26,5 +26,7 @@ namespace ScratchyXna
             AddScene<TitleScene>();
             AddScene<PlayScene>();
         }
+
+        
     }
 }

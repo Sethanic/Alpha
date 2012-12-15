@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace ScratchyXna
 {
@@ -10,6 +11,8 @@ namespace ScratchyXna
     /// </summary>
     class PlayScene : Scene
     {
+        TurretPlacement Square;
+
         /// <summary>
         /// Load happens once when the scene is created
         /// </summary>
@@ -35,7 +38,7 @@ namespace ScratchyXna
             //AddSprite(Turret3);
             //Turret3.SetPosition(-50.0, -50.0);
 
-            TurretPlacement Square = new TurretPlacement();
+            Square = new TurretPlacement();
             AddSprite(Square);
             
 
@@ -69,10 +72,23 @@ namespace ScratchyXna
 
 
             if (Mouse.Button1Pressed()) {
-                BasicTurret newTurret = new BasicTurret();
-                AddSprite(newTurret);
-                newTurret.Position = Mouse.Position;
+                if (isTurretatposition(Square.Position) == false)
+                {
+                    BasicTurret newTurret = new BasicTurret();
+                    AddSprite(newTurret);
+                    newTurret.Position = Square.Position;
+                }
             }
+        }
+        public bool isTurretatposition(Vector2 position)
+        {
+            foreach(Sprite Turret in Sprites.Where(s=>s is Iturret ))
+            {
+                if (Turret.Position == position){
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

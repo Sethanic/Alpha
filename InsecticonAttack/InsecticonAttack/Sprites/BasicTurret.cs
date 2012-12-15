@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ScratchyXna
 {
-    class BasicTurret : Sprite
+    class BasicTurret : Sprite , Iturret
     {
         /// <summary>
         /// Load the sprite
