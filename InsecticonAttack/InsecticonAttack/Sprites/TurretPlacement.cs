@@ -16,7 +16,7 @@ namespace ScratchyXna
         public override void Update(Microsoft.Xna.Framework.GameTime gameTime)
         {
 
-            Math.
+            //Math.
 
         }
     }
