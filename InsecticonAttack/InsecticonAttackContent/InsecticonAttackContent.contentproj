@@ -127,7 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Songs\Two Steps From Hell - Protectors Of The Earth -.mp3">
-      <Name>Two Steps From Hell - Protectors Of The Earth -</Name>
+      <Name>BackgroundMusic2</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
     </Compile>

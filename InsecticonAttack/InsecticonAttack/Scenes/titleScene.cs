@@ -40,6 +40,7 @@ namespace ScratchyXna
             AddSong("BackgroundMusic1");
             PlaySong("BackgroundMusic1", true);
 
+
             // Sprites
             startButton = new StartButton();
             AddSprite(startButton);

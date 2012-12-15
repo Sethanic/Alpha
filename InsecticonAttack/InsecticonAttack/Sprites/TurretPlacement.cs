@@ -15,6 +15,8 @@ namespace ScratchyXna
             AddCostume("RedSquare");
             SetCostume("GreenSquare");
             Scale = 0.275f;
+            this.GhostEffect = 50;
+            this.Layer = 100;
         }
 
         public PlayScene PlayScene
