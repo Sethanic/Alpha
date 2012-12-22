@@ -7,7 +7,7 @@ namespace ScratchyXna
 {
     class TurretPlacement : Sprite
     {
-        int gridsize = 20;
+        int gridsize = 22;
 
         public override void Load()
         {
