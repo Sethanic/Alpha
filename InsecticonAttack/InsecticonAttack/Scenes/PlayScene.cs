@@ -76,7 +76,8 @@ namespace ScratchyXna
                 {
                     BasicTurret newTurret = new BasicTurret();
                     AddSprite(newTurret);
-                    newTurret.Position = Square.Position;
+                    newTurret.SetPosition(Square.Position);
+
                 }
             }
         }

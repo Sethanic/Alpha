@@ -5,28 +5,20 @@ using System.Text;
 
 namespace ScratchyXna
 {
-    class BasicTurret : Sprite , Iturret
+    class BasicTurretBarrel : Sprite
     {
-        BasicTurretBarrel BasicBarrel;
-
         /// <summary>
         /// Load the sprite
         /// </summary>
         public override void Load()
         {
-            BasicBarrel = this.Scene.AddSprite<BasicTurretBarrel>();
-            AddCostume("BasicTurret");
+            AddCostume("BasicTurretBarrel");
             Scale = 0.275f;
+            Layer = 50;
         }
         public override void Update(Microsoft.Xna.Framework.GameTime gameTime)
         {
-           
-        }
-
-        internal void SetPosition(Microsoft.Xna.Framework.Vector2 vector2)
-        {
-            this.Position = vector2;
-            BasicBarrel.Position = vector2;
+            Rotation = Rotation + (float)gameTime.ElapsedGameTime.TotalSeconds*20;
         }
     }
 
