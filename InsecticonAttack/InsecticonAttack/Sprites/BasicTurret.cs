@@ -17,7 +17,22 @@ namespace ScratchyXna
             BasicBarrel = this.Scene.AddSprite<BasicTurretBarrel>();
             AddCostume("BasicTurret");
             Scale = 0.275f;
+
+            Wait(3.0, Shoot);
         }
+
+        public void Shoot()
+        {
+            // Find nearest insecticon
+
+            // Create a bullet
+
+            // Point bullet in direction of insecticon
+
+            // Set bullet speed
+        }
+
+
         public override void Update(Microsoft.Xna.Framework.GameTime gameTime)
         {
            

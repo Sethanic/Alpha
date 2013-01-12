@@ -82,6 +82,7 @@
     <Compile Include="Scenes\titleScene.cs" />
     <Compile Include="Sprites\BasicTurret.cs" />
     <Compile Include="Sprites\BasicTurretBarrel.cs" />
+    <Compile Include="Sprites\Bullet.cs" />
     <Compile Include="Sprites\Iturret.cs" />
     <Compile Include="Sprites\TurretPlacement.cs" />
     <Compile Include="Sprites\Insecticon.cs" />
@@ -145,7 +146,6 @@
     <None Include="bin\x86\Debug\Content\Costumes\StartButton.xnb" />
     <None Include="bin\x86\Debug\Content\Fonts\INATitle.xnb" />
     <None Include="bin\x86\Debug\Content\Fonts\QuartzMS.xnb" />
-    <None Include="InsecticonAttack.csproj.Debug.cachefile" />
     <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\x86\Debug\ResolveAssemblyReference.cache" />
   </ItemGroup>
