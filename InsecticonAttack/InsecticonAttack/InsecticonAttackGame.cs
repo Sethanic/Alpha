@@ -20,14 +20,15 @@ namespace ScratchyXna
         public InsecticonAttack()
         {
             Game = this;
+            SetScreenSize(800,600 , true);
         }
+
         public override void LoadScenes()
         {
             this.
             AddScene<TitleScene>();
             AddScene<PlayScene>();
         }
-
         
     }
 }
