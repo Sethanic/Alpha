@@ -21,6 +21,7 @@ namespace ScratchyXna
             // Background 
             Background.AddLayer("PlaySceneBackground");
             Background.ScaleToScreen();
+            BackButtonBehaviour = BackButtonBehaviours.Ignore;
 
             float LeadX=200;
             float LeadY=0;
