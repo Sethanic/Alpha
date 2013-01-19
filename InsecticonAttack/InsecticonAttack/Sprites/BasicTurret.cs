@@ -20,9 +20,21 @@ namespace ScratchyXna
 
             this.Forever(0.3, Think);
         }
+
         public void Think()
         {
             List<Insecticon> insecticons = (this.Scene as PlayScene).FindInsecticons();
+            if (insecticons.Any())
+            {
+                Insecticon closestInsecticon = insecticons.OrderBy(i => i.DistanceTo(this)).First();
+                float direction = AngleTowards(closestInsecticon.Position);
+                this.BasicBarrel.TargetRotation = 360 - direction;
+                this.BasicBarrel.HaveTarget = true;
+            }
+            else
+            {
+                this.BasicBarrel.HaveTarget = false;
+            }
         }
 
         public void Shoot()
@@ -40,7 +52,6 @@ namespace ScratchyXna
 
         public override void Update(Microsoft.Xna.Framework.GameTime gameTime)
         {
-           
         }
 
         internal void SetPosition(Microsoft.Xna.Framework.Vector2 vector2)

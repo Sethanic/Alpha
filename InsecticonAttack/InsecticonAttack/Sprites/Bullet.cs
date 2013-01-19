@@ -15,6 +15,7 @@ namespace ScratchyXna
         public override void Load()
         {
             AddCostume("Bullet");
+            Scale = 0.01f;
         }
 
         /// <summary>
@@ -23,7 +24,10 @@ namespace ScratchyXna
         /// <param name="gameTime"></param>
         public override void Update(GameTime gameTime)
         {
-            
+            if (this.IsOffScreen())
+            {
+                Scene.Remove(this);
+            }
         }
 
         /// <summary>

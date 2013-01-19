@@ -27,6 +27,10 @@ namespace ScratchyXna
         /// <param name="gameTime"></param>
         public override void Update(GameTime gameTime)
         {
+            if (this.IsTouchingLeft())
+            {
+                Scene.Remove(this);
+            }
         }
        
 
