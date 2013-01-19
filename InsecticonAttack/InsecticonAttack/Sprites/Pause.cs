@@ -9,7 +9,7 @@ namespace ScratchyXna
     /// <summary>
     /// A Start Button Sprite
     /// </summary>
-    class StartButton : Sprite
+    class PauseButton : Sprite
     {
         /// <summary>
         /// Load the sprite

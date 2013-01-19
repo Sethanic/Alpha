@@ -22,7 +22,7 @@ namespace ScratchyXna
         }
         public void Think()
         {
-            List<Insecticon>insecticons=(this.Scene as PlayScene).
+            List<Insecticon> insecticons = (this.Scene as PlayScene).FindInsecticons();
         }
         public void Shoot()
         {

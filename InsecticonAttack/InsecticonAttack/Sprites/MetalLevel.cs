@@ -11,6 +11,11 @@ namespace ScratchyXna.Sprites
         {
             AddCostume("MetalLevel");
             //SetSize
-        }   
+        }
+
+        public override void Update(Microsoft.Xna.Framework.GameTime gameTime)
+        {
+            
+        }
     }
 }

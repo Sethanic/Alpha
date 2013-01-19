@@ -6,9 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace ScratchyXna
 {
-    /// <summary>
-    /// A Start Button Sprite
-    /// </summary>
+    
     class Bullet : Sprite
     {
         /// <summary>

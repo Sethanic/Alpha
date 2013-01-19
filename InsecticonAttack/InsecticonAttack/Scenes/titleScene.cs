@@ -11,7 +11,7 @@ namespace ScratchyXna
     /// </summary>
     class TitleScene : Scene
     {
-        StartButton startButton;
+        PauseButton startButton;
 
         /// <summary>
         /// Load happens once when the scene is created
@@ -42,7 +42,7 @@ namespace ScratchyXna
 
 
             // Sprites
-            startButton = new StartButton();
+            startButton = new PauseButton();
             AddSprite(startButton);
         }
 
