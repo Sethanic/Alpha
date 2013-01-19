@@ -24,7 +24,9 @@ namespace ScratchyXna
         {
             List<Insecticon> insecticons = (this.Scene as PlayScene).FindInsecticons();
         }
+
         public void Shoot()
+        
         {
             // Find nearest insecticon
 
