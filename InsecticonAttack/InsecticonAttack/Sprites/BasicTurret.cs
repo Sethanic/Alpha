@@ -18,9 +18,12 @@ namespace ScratchyXna
             AddCostume("BasicTurret");
             Scale = 0.275f;
 
-            Wait(3.0, Shoot);
+            this.Forever(0.3, Think);
         }
-
+        public void Think()
+        {
+            List<Insecticon>insecticons=(this.Scene as PlayScene).
+        }
         public void Shoot()
         {
             // Find nearest insecticon

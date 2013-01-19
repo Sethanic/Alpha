@@ -64,6 +64,18 @@ namespace ScratchyXna
 
         }
 
+        public List<Insecticon> FindInsecticons()
+        {
+            List<Insecticon> found = new List<Insecticon>();
+            foreach (Sprite Insecticon in Sprites.Where(s => s is Insecticon))
+            {
+                found.Add(Insecticon as Insecticon);
+
+
+            }
+            return found;
+        }
+    
         /// <summary>
         /// Update happens 30-60 times a second
         /// </summary>
