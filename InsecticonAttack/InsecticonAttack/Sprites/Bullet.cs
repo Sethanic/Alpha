@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace ScratchyXna
 {
-    
+
     class Bullet : Sprite
     {
         /// <summary>
@@ -30,22 +30,14 @@ namespace ScratchyXna
             }
         }
 
-        /// <summary>
-        /// If the mouse is over the button, turn it red
-        /// </summary>
-        private void ColorOnMOuseHover()
-        {
-            
-        }
 
-         /// <summary>
+        /// <summary>
         /// Wiggle
         /// </summary>
         /// <param name="gameTime"></param>
         //private void WiggleAround(GameTime gameTime)
         //{
-           //X = Math.Sin(gameTime.TotalGameTime.TotalSeconds) * 30;
-            //Y = Math.Cos(gameTime.TotalGameTime.TotalSeconds) * 10;
-        }
+        //X = Math.Sin(gameTime.TotalGameTime.TotalSeconds) * 30;
+        //Y = Math.Cos(gameTime.TotalGameTime.TotalSeconds) * 10;
     }
-
+}
