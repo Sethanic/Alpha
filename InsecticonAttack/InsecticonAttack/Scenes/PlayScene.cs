@@ -12,6 +12,7 @@ namespace ScratchyXna
     class PlayScene : Scene
     {
         TurretPlacement Square;
+        HUD HUD;
 
         /// <summary>
         /// Load happens once when the scene is created
@@ -30,6 +31,9 @@ namespace ScratchyXna
                 float dx = 20;
                 float dy = 20;
 
+                HUD=AddSprite<HUD>();
+
+               
                 //BasicTurret Turret1 = new BasicTurret();
                 //AddSprite(Turret1);
 

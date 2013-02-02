@@ -84,6 +84,7 @@
     <Compile Include="Sprites\BasicTurret.cs" />
     <Compile Include="Sprites\BasicTurretBarrel.cs" />
     <Compile Include="Sprites\Bullet.cs" />
+    <Compile Include="Sprites\HUD.cs" />
     <Compile Include="Sprites\Pause.cs" />
     <Compile Include="Sprites\MetalLevel.cs" />
     <Compile Include="Sprites\Iturret.cs" />
