@@ -19,6 +19,7 @@ namespace ScratchyXna
         public override void Load()
         {
 
+
             // Background
             Background.AddLayer("TitleSceneBackground");
             Background.ScaleToScreen();

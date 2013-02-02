@@ -10,6 +10,7 @@ namespace ScratchyXna
         public float TargetRotation;
         public float TurretTurnSpeed = 100;
         public bool HaveTarget = false;
+        public bool GunLoaded = true;
 
         /// <summary>
         /// Load the sprite
@@ -36,20 +37,27 @@ namespace ScratchyXna
             {
                 if (HaveTarget)
                 {
-                    //todo - wait for gun to re-load
-                    Shoot();
+                    if (GunLoaded)
+                    {
+                        Shoot();
+                    }
                 }
             }
         }
 
+        
+        
+
         public void Shoot()
         {
-            Bullet bullet = new Bullet();
-            bullet.Position = this.Position;
-            bullet.Direction = 360 - this.Rotation;
-            bullet.Speed = 1;
-            Scene.AddSprite(bullet);
+            {
+                Bullet bullet = new Bullet();
+                bullet.Position = this.Position;
+                bullet.Direction = 360 - this.Rotation;
+                bullet.Speed = 1;
+                Scene.AddSprite(bullet);
+                GunLoaded = false;
+            }
         }
     }
-
 }
