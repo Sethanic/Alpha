@@ -16,7 +16,7 @@ namespace ScratchyXna
         {
             AddCostume("InsecticonAttackHUD");
             Scale = 0.33292f;
-            Y = 83.;
+            Y = 83.29;
         }
 
         /// <summary>
