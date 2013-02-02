@@ -45,7 +45,10 @@ namespace ScratchyXna
             }
         }
 
-        
+        public void LoadGun()
+        {
+            GunLoaded = true;
+        }
         
 
         public void Shoot()
@@ -57,6 +60,7 @@ namespace ScratchyXna
                 bullet.Speed = 1;
                 Scene.AddSprite(bullet);
                 GunLoaded = false;
+                Wait(2, LoadGun);
             }
         }
     }
